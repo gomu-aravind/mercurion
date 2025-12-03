@@ -1,8 +1,28 @@
-asgiref==3.10.0
-Django==5.2.8
-djangorestframework==3.16.1
-pillow==12.0.0
-psycopg2-binary==2.9.11
-python-dotenv==1.2.1
-sqlparse==0.5.3
-typing_extensions==4.15.0
+Django==5.0.4
+djangorestframework==3.15.2
+django-cors-headers==4.3.1
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+django-allauth==0.63.3
+dj-rest-auth==6.0.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Env & Utilities
+python-decouple==3.8
+Pillow==10.2.0
+
+# Docs
+drf-yasg==1.21.7
+
+# Filtering & Search Helpers
+django-filter==24.2
+
+# Optional but useful for reports
+openpyxl==3.1.2
+
+# Emails (SMTP-based)
+requests==2.32.3
+
